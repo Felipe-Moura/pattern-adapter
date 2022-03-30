@@ -32,10 +32,10 @@ public class Adapter implements Generator{
 		List<Integer> output = new ArrayList<Integer>(input);
 		int min, aux;
 		
-		for(int i = 0; i < this.size; i++) {
+		for(int i = 0; i < input.size(); i++) {
 			min = i;
 			
-			for(int j = i + 1; j < this.size; j++) {
+			for(int j = i + 1; j < input.size(); j++) {
 				if(output.get(j) < output.get(min)) {
 					min = j;
 				}

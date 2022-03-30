@@ -36,7 +36,7 @@ public class Main {
 				aux = list.get(i);
 				System.out.print(aux + " ");
 			}
-			else if(aux < list.get(i)) {
+			else if(aux <= list.get(i)) {
 				aux = list.get(i);
 				System.out.print(aux + " ");
 			}
